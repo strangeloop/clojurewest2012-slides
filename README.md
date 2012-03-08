@@ -1,4 +1,4 @@
-This repo holds slides from the Clojure/West 2012 conference.  Learn more at http://clojurewest.org.  All slides are copyright the speaker and unless otherwise specified by the author, all rights are reserved by the author.  Links to video will be added as they are released. 
+This repo holds slides from the [Clojure/West 2012](http://clojurewest.org) conference.  All slides are copyright the speaker and unless otherwise specified by the author, all rights are reserved by the author.  Links to video will be added as they are released. 
 
 Enjoy!
 Alex Miller
