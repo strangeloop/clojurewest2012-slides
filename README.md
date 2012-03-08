@@ -1,6 +1,7 @@
 This repo holds slides from the [Clojure/West 2012](http://clojurewest.org) conference.  All slides are copyright the speaker and unless otherwise specified by the author, all rights are reserved by the author.  Links to video will be added as they are released. 
 
 Enjoy!
+
 Alex Miller
 
 Speakers: if you submit a pull request to add slides, here is an example of how to update this file and a preferred way 
