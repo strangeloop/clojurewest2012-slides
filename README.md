@@ -38,7 +38,7 @@ to name the slides:
 * Clojure in the Clouds - Micah Martin
 * Adopting Continuous Testing in Clojure - Bill Caputo
 * Clojure-powered Startups: a three-part story - Paul deGrandis
-* [Accessing Real-World APIs from Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Patterson-RealWorldAPIs.pdf) - Pat Patterson
+* [Accessing Real-World APIs from Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Patterson-RealWorldAPIs.pdf) - [Pat Patterson](http://twitter.com/metadaddy)
 * Thinking in Data - Stuart Sierra
 * Bootstrapping Clojure at Groupon - Tyler Jennings
 * Why is a Monad Like a Writing Desk? - Carin Meier 
