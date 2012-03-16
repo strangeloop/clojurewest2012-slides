@@ -37,7 +37,7 @@ to name the slides:
 * Building tools to help kids fight ADHD - Alan Whitaker
 * Clojure in the Clouds - Micah Martin
 * Adopting Continuous Testing in Clojure - Bill Caputo
-* Clojure-powered Startups: a three-part story - Paul deGrandis
+* [Clojure-powered Startups: a three-part story](https://github.com/strangeloop/clojurewest2012-slides/raw/master/deGrandis-ClojurePoweredStartups.pdf) - [Paul deGrandis](https://twitter.com/ohpauleez)
 * [Accessing Real-World APIs from Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Patterson-RealWorldAPIs.pdf) - [Pat Patterson](http://twitter.com/metadaddy)
 * Thinking in Data - Stuart Sierra
 * Bootstrapping Clojure at Groupon - Tyler Jennings
