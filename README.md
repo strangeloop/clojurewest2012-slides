@@ -41,7 +41,7 @@ to name the slides:
 * [Accessing Real-World APIs from Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Patterson-RealWorldAPIs.pdf) - [Pat Patterson](http://twitter.com/metadaddy)
 * Thinking in Data - Stuart Sierra
 * Bootstrapping Clojure at Groupon - Tyler Jennings
-* Why is a Monad Like a Writing Desk? - Carin Meier 
+* [Why is a Monad Like a Writing Desk?](https://github.com/gigasquid/Presentations/raw/master/monadWritingDesk.pdf) - Carin Meier 
 
 ## Saturday
 
