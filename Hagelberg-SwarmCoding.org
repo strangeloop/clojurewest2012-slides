@@ -130,11 +130,20 @@ revelatory experience about informational models of that thing.
 ** Groups of up to ten
 ** Project ideas
    - Chat log analysis
-   - Dependency games (Clojuresphere data)
+     http://www.raynes.me/logs/irc.freenode.net/
+   - Dependency trees (Clojuresphere data)
+     http://git.io/melange
+   - Github rankings
+     https://github.com/Raynes/tentacles
    - Group web site (members, projects listed)
    - Games
      - Mastermind
      - Tic-tac-toe
-\pause
-\vskip10pt
-** To host: \texttt{wget git.io/swarmup.sh}
+* Let's try it out
+** To host: 
+   - Create separate "swarm" user
+   - Setup script: http://git.io/swarmup.sh
+** To join: 
+   - Use the SSH key http://git.io/id_swarm
+   - \texttt{ssh swarm@host.local}
+   - \texttt{tmux attach}
