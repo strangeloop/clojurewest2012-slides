@@ -32,7 +32,7 @@ to name the slides:
 * Introducing Immutant - Jim Crossley
 * Load testing with Clojure - Andy Kriger
 * Pallet, DevOps for the JVM - Antoni Batchelli
-* Building User Interfaces with Seesaw - Dave Ray
+* [Building User Interfaces with Seesaw](http://darevay.com/talks/clojurewest2012) - [Dave Ray](http://twitter.com/darevay)
 * The generative generation - Aaron Bedra
 * Building tools to help kids fight ADHD - Alan Whitaker
 * Clojure in the Clouds - Micah Martin
