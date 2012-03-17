@@ -23,7 +23,7 @@ to name the slides:
 
 * [Macros are Hard!](https://github.com/strangeloop/clojurewest2012-slides/raw/master/McNeil-MacrosAreHard.zip) -  David McNeil
 * [Namespaces, Symbols, and Vars, Oh My!](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Andera-Namespaces-Symbols-Vars.zip) - Craig Andera
-* Knockbox, an Eventual Consistency Toolkit - Reid Draper
+* [Knockbox, an Eventual Consistency Toolkit](http://reiddraper.github.com/knockbox-slides/) - [Reid Draper](https://twitter.com/#!/reiddraper)
 * Avout and Distributed State in Clojure - David Liebke
 * [clojure@runa :: dynamic pricing through DSLs](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rathore-Runa.pdf) - Amit Rathore
 * Programming with Values in Clojure - Alan Dipert
