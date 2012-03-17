@@ -25,7 +25,7 @@ to name the slides:
 * Namespaces, Symbols, and Vars, Oh My! - Craig Andera
 * Knockbox, an Eventual Consistency Toolkit - Reid Draper
 * Avout and Distributed State in Clojure - David Liebke
-* clojure@runa :: dynamic pricing through DSLs - Amit Rathore
+* [clojure@runa :: dynamic pricing through DSLs](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rathore-Runa.pdf) - Amit Rathore
 * Programming with Values in Clojure - Alan Dipert
 * What sucks about Clojure...and why you'll love it anyway - Chas Emerick
 * [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
