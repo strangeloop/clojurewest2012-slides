@@ -29,7 +29,7 @@ to name the slides:
 * Programming with Values in Clojure - Alan Dipert
 * What sucks about Clojure...and why you'll love it anyway - Chas Emerick
 * [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
-* Introducing Immutant - Jim Crosslei
+* Introducing Immutant - Jim Crossley
 * [Load testing with Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/kriger-load_testing_with_clojure.tbz) - Andy Kriger
 * Pallet, DevOps for the JVM - Antoni Batchelli
 * [Building User Interfaces with Seesaw](http://darevay.com/talks/clojurewest2012) - [Dave Ray](http://twitter.com/darevay)
