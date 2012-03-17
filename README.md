@@ -31,7 +31,7 @@ to name the slides:
 * [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
 * Introducing Immutant - Jim Crossley
 * [Load testing with Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/kriger-load_testing_with_clojure.tbz) - Andy Kriger
-* Pallet, DevOps for the JVM - Antoni Batchelli
+* [Pallet, DevOps for the JVM - Antoni Batchelli](https://github.com/strangeloop/clojurewest2012-slides/raw/master/tbatchelli-pallet-devops-for-the-jvm.pdf) - Toni Batchelli
 * [Building User Interfaces with Seesaw](http://darevay.com/talks/clojurewest2012) - [Dave Ray](http://twitter.com/darevay)
 * The generative generation - Aaron Bedra
 * Building tools to help kids fight ADHD - Alan Whitaker
