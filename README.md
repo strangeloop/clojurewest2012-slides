@@ -51,7 +51,7 @@ to name the slides:
 * Distributed Apps: The Joys of Testing and Debugging - Chris Houser
 * SOLID Clojure - Colin Jones
 * Real World Cascalog: Past, Present, Future - Federico Brubacher
-* Real World Clojure - Doing Boring Stuff With An Exciting Language - Sean Corfield
+* [Real World Clojure - Doing Boring Stuff With An Exciting Language](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Corfield-Boring.pdf) - [Sean Corfield](http://corfield.org)
 * Composing Statistical Graphics On the Web - Kevin Lynagh
 * Swarm Coding - Phil Hagelberg
 * Crunching Numbers With Clojure - Daniel Solano Gomez
