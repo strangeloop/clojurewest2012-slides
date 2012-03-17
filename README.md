@@ -56,7 +56,7 @@ to name the slides:
 * Swarm Coding - Phil Hagelberg
 * Crunching Numbers With Clojure - Daniel Solano Gomez
 * Beyond Ninjas: DOM manipulation with ClojureScript and Domina - Luke VanderHart
-* DSLs in Clojure - Jim Duey
+* [DSLs in Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Duey-DSLs.pdf) - Jim Duey
 * [Building Libraries for ClojureScript - Learning to Love Google Closure](http://ckirkendall.github.com/Presentations/ClojureWest/) - [Creighton Kirkendall](http://twitter.com/crkirkendall)
 * ClojureScript Anatomy - Michael Fogus
 * Practical core.logic - Ryan Senior
