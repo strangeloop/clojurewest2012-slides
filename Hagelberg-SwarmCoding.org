@@ -1,0 +1,140 @@
+#+TITLE:     Swarm Coding
+#+AUTHOR:    Phil Hagelberg
+#+EMAIL:     technomancy@gmail.com
+#+DATE:      2012-03-17
+#+DESCRIPTION: Hands-on collaborative coding for user groups
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+BEAMER_HEADER_EXTRA: \usetheme{Marburg}\usecolortheme{default}
+#+LATEX_HEADER: \usefonttheme{serif}
+
+# This uses org-mode; open it in Emacs and hit C-c C-e d to render a PDF
+
+* Who am I?
+** Phil Hagelberg (http://technomancy.us)
+- Soli Deo Gloria
+- Hacker-Errant, Heroku
+- Second-tallest man in Clojure
+
+\vskip10pt
+
+#+ATTR_LaTeX: width=.4\linewidth
+[[./Hagelberg-SwarmCoding/heroku.pdf]]
+
+* Who am I?
+** Relevant qualification:
+   - Founded Seajure, Seattle Clojure Group
+# small group, 8-12 generally
+# distilling our experiences
+
+* User groups
+** What are we trying to achieve?
+   - Social
+   - Learning (teaching?)
+
+* User groups
+** The lecture model
+   - What's going in this room here
+   - But not sustainable
+   - Not even a particularly good way of learning
+# knowledge transfer
+
+* User groups
+** The lecture model works if...
+   - Audience is sufficiently alert, caffeinated, etc
+   - Presenter can keep your attention.
+     - good jokes
+     - cat pictures
+
+* Learning
+[[./Hagelberg-SwarmCoding/athens.jpg]]
+# Classical education background: I've got opinions!
+
+* Learning by discussion
+** Socratic dialog
+** Discussion among a small group
+** Asking questions, not giving answers
+# Results in totally different depth of understanding
+# Degrees of "leading questions"
+# Leader must be attuned to the level of expertise of the group
+# Leading vs co-discovering?
+
+* Learning by shared models
+** Computer Communications
+  - by J.C.R. Licklider and Robert Taylor
+  - Creative communication
+    - distinct from simply data transfer
+\pause
+** Communication: collaborative modeling
+
+* Learning by shared models
+** Computer Communications
+** Communication: collaborative modeling
+\begin{quote}
+Any communication between people about the same thing is a common
+revelatory experience about informational models of that thing.
+\end{quote}
+# Bringing two independent models in line with each other
+\pause
+** Computers bring immediacy over distance
+** Computers remove ambiguity
+
+# Licklider was giddy about the idea of producing a network that would
+# enhance human communication via collaborative modeling. He was
+# excited at the prospect of such a system being available for
+# researchers at a mere $12/hour. We have so much more.
+
+* A REPL process as a shared model
+# Licklider was talking about engineering projects and scientific
+# research. Programmers have a huge advantage!
+** Interactive programs
+   - Able to act directly on that substance
+   - Dispensing with intermediate modeling steps
+     - (Modeling still happens in your head)
+
+* The technology
+** SSH as a shared user
+# - Distribute keys beforehand
+# - Use .local addresses if possible
+# - Disable agent forwarding
+** \texttt{tmux attach}
+** \texttt{lein new hack-project}
+** Emacs/Vim
+
+* Criteria for a hack project
+** Short, accessible
+** Contrived vs practical (harder, more interesting)
+** Start by doing a fresh project each time
+
+* Running a session
+:PROPERTIES:
+:BEAMER_envargs: [<+->]
+:END:
+** Start with everyone introducing themselves
+   - Ascertain skill levels
+** Hold a "tooling workshop" session first
+** Explain the project, goals
+** Pass around control
+** By the end, hope to have produced something
+   - Push to Github/Clojars/Heroku
+
+* Let's try it out
+** Groups of up to ten
+** Project ideas
+   - Chat log analysis
+   - Dependency games (Clojuresphere data)
+   - Group web site (members, projects listed)
+   - Games
+     - Mastermind
+     - Tic-tac-toe
+\pause
+\vskip10pt
+** To host: \texttt{wget git.io/swarmup.sh}
