@@ -28,7 +28,7 @@ to name the slides:
 * clojure@runa :: dynamic pricing through DSLs - Amit Rathore
 * Programming with Values in Clojure - Alan Dipert
 * What sucks about Clojure...and why you'll love it anyway - Chas Emerick
-* The Taming of the Deftype - Baishampayan Ghose
+* [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
 * Introducing Immutant - Jim Crossley
 * Load testing with Clojure - Andy Kriger
 * Pallet, DevOps for the JVM - Antoni Batchelli
@@ -61,5 +61,3 @@ to name the slides:
 * ClojureScript Anatomy - Michael Fogus
 * Practical core.logic - Ryan Senior
 * Laziness: the Good, the Bad, and the Ugly - Paul Stadig
-
-
