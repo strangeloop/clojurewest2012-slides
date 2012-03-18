@@ -57,6 +57,6 @@ to name the slides:
 * Beyond Ninjas: DOM manipulation with ClojureScript and Domina - Luke VanderHart
 * [DSLs in Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Duey-DSLs.pdf) - Jim Duey
 * [Building Libraries for ClojureScript - Learning to Love Google Closure](http://ckirkendall.github.com/Presentations/ClojureWest/) - [Creighton Kirkendall](http://twitter.com/crkirkendall)
-* ClojureScript Anatomy - Michael Fogus
+* [ClojureScript Anatomy](https://github.com/strangeloop/clojurewest2012-slides/raw/master/CLJS_clojure-west-FOGUS.pdf) - Michael Fogus
 * Practical core.logic - Ryan Senior
 * Laziness: the Good, the Bad, and the Ugly - Paul Stadig
