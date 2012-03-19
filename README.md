@@ -51,7 +51,7 @@ to name the slides:
 * [SOLID Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/trptcolin-SOLID-Clojure.pdf) - Colin Jones
 * Real World Cascalog: Past, Present, Future - Federico Brubacher
 * [Real World Clojure - Doing Boring Stuff With An Exciting Language](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Corfield-Boring.pdf) - [Sean Corfield](http://corfield.org)
-* Composing Statistical Graphics On the Web - Kevin Lynagh
+* [Composing Statistical Graphics On the Web](https://github.com/strangeloop/clojurewest2012-slides/raw/master/lynaghk_statistical_graphics_clojurescript.pdf) - Kevin Lynagh
 * [Swarm Coding](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Hagelberg-SwarmCoding.pdf) - Phil Hagelberg
 * Crunching Numbers With Clojure - Daniel Solano Gomez
 * Beyond Ninjas: DOM manipulation with ClojureScript and Domina - Luke VanderHart
