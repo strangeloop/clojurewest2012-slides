@@ -25,7 +25,7 @@ to name the slides:
 * [Namespaces, Symbols, and Vars, Oh My!](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Andera-Namespaces-Symbols-Vars.zip) - Craig Andera
 * [Knockbox, an Eventual Consistency Toolkit](http://reiddraper.github.com/knockbox-slides/) - [Reid Draper](https://twitter.com/#!/reiddraper)
 * [clojure@runa :: dynamic pricing through DSLs](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rathore-Runa.pdf) - Amit Rathore
-* Programming with Values in Clojure - Alan Dipert
+* [Programming with Values in Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Dipert-ProgrammingWithValues.pdf) - Alan Dipert
 * What sucks about Clojure...and why you'll love it anyway - Chas Emerick
 * [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
 * [Introducing Immutant](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Crossley-Introducing-Immutant.pdf) - Jim Crossley
