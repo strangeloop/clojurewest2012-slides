@@ -33,7 +33,7 @@ to name the slides:
 * [Pallet, DevOps for the JVM - Antoni Batchelli](https://github.com/strangeloop/clojurewest2012-slides/raw/master/tbatchelli-pallet-devops-for-the-jvm.pdf) - Toni Batchelli
 * [Building User Interfaces with Seesaw](http://darevay.com/talks/clojurewest2012) - [Dave Ray](http://twitter.com/darevay)
 * The generative generation - Aaron Bedra
-* Building tools to help kids fight ADHD - Alan Whitaker
+* [Building tools to help kids fight ADHD](https://github.com/strangeloop/clojurewest2012-slides/raw/master/whitaker-helping-adhd-kids.pdf) - [Alan Whitaker](http://twitter.com/#!/digiduke)
 * Clojure in the Clouds - Micah Martin
 * Adopting Continuous Testing in Clojure - Bill Caputo
 * [Clojure-powered Startups: a three-part story](https://github.com/strangeloop/clojurewest2012-slides/raw/master/deGrandis-ClojurePoweredStartups.pdf) - [Paul deGrandis](https://twitter.com/ohpauleez)
