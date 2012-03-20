@@ -46,7 +46,7 @@ to name the slides:
 
 * [Scalable Realtime Computation with Storm's Clojure DSL](https://github.com/strangeloop/clojurewest2012-slides/raw/master/marz-storm.pdf) - Nathan Marz
 * Distilling Java Libraries - Zach Tellman
-* Clojure, JRuby on Rails, and You - Allen Rohner
+* [Clojure, JRuby on Rails, and You](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rohner-JRuby.pdf) - Allen Rohner
 * [Distributed Apps: The Joys of Testing and Debugging](https://github.com/strangeloop/clojurewest2012-slides/raw/master/StackTraces-Longbottom-Chouser.svg) - Chris Houser
 * [SOLID Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/trptcolin-SOLID-Clojure.pdf) - Colin Jones
 * Real World Cascalog: Past, Present, Future - Federico Brubacher
