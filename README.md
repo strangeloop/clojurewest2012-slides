@@ -26,7 +26,7 @@ to name the slides:
 * [Knockbox, an Eventual Consistency Toolkit](http://reiddraper.github.com/knockbox-slides/) - [Reid Draper](https://twitter.com/#!/reiddraper)
 * [clojure@runa :: dynamic pricing through DSLs](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rathore-Runa.pdf) - Amit Rathore
 * [Programming with Values in Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Dipert-ProgrammingWithValues.pdf) - Alan Dipert
-* What sucks about Clojure...and why you'll love it anyway - Chas Emerick
+* [What sucks about Clojure...and why you'll love it anyway](https://github.com/strangeloop/clojurewest2012-slides/raw/master/cemerick-what-sucks-about-clojure-and-why-youll-love-it-anyway.pdf) - Chas Emerick
 * [The Taming of the Deftype](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Taming_of_The_Deftype_Baishampayan_Ghose.pdf) - Baishampayan Ghose
 * [Introducing Immutant](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Crossley-Introducing-Immutant.pdf) - Jim Crossley
 * [Load testing with Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/kriger-load_testing_with_clojure.tbz) - Andy Kriger
