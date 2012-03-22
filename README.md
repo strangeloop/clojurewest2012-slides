@@ -1,13 +1,13 @@
-This repo holds slides from the [Clojure/West 2012](http://clojurewest.org) conference.  All slides are copyright the speaker and unless otherwise specified by the author, all rights are reserved by the author.  Links to video will be added as they are released. 
+This repo holds slides from the [Clojure/West 2012](http://clojurewest.org) conference.  All slides are copyright the speaker and unless otherwise specified by the author, all rights are reserved by the author.  Links to video will be added as they are released.
 
 Enjoy!
 
 Alex Miller
 
-Speakers: if you submit a pull request to add slides, here is an example of how to update this file and a preferred way 
+Speakers: if you submit a pull request to add slides, here is an example of how to update this file and a preferred way
 to name the slides:
 
-* [This is the title](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Smith-ThisIsTheTitle.pdf) - Joe Smith 
+* [This is the title](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Smith-ThisIsTheTitle.pdf) - Joe Smith
 
 
 # Keynotes
@@ -45,7 +45,7 @@ to name the slides:
 ## Saturday
 
 * [Scalable Realtime Computation with Storm's Clojure DSL](https://github.com/strangeloop/clojurewest2012-slides/raw/master/marz-storm.pdf) - Nathan Marz
-* Distilling Java Libraries - Zach Tellman
+* [Distilling Java Libraries](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Tellman-Distilling-Java-Libraries.pdf) - Zach Tellman
 * [Clojure, JRuby on Rails, and You](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rohner-JRuby.pdf) - Allen Rohner
 * [Distributed Apps: The Joys of Testing and Debugging](https://github.com/strangeloop/clojurewest2012-slides/raw/master/StackTraces-Longbottom-Chouser.svg) - Chris Houser
 * [SOLID Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/trptcolin-SOLID-Clojure.pdf) - Colin Jones
