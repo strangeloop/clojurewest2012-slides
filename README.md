@@ -49,7 +49,7 @@ to name the slides:
 * [Clojure, JRuby on Rails, and You](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Rohner-JRuby.pdf) - Allen Rohner
 * [Distributed Apps: The Joys of Testing and Debugging](https://github.com/strangeloop/clojurewest2012-slides/raw/master/StackTraces-Longbottom-Chouser.svg) - Chris Houser
 * [SOLID Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/trptcolin-SOLID-Clojure.pdf) - Colin Jones
-* Real World Cascalog: Past, Present, Future - Federico Brubacher
+* [Real World Cascalog: Past, Present, Future](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Brubacher-Cascalog.pdf) - Federico Brubacher
 * [Real World Clojure - Doing Boring Stuff With An Exciting Language](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Corfield-Boring.pdf) - [Sean Corfield](http://corfield.org)
 * [Composing Statistical Graphics On the Web](https://github.com/strangeloop/clojurewest2012-slides/raw/master/lynaghk_statistical_graphics_clojurescript.pdf) - Kevin Lynagh
 * [Swarm Coding](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Hagelberg-SwarmCoding.pdf) - Phil Hagelberg
