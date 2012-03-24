@@ -53,7 +53,7 @@ to name the slides:
 * [Real World Clojure - Doing Boring Stuff With An Exciting Language](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Corfield-Boring.pdf) - [Sean Corfield](http://corfield.org)
 * [Composing Statistical Graphics On the Web](https://github.com/strangeloop/clojurewest2012-slides/raw/master/lynaghk_statistical_graphics_clojurescript.pdf) - Kevin Lynagh
 * [Swarm Coding](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Hagelberg-SwarmCoding.pdf) - Phil Hagelberg
-* Crunching Numbers With Clojure - Daniel Solano Gomez
+* [Crunching Numbers With Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Solano-Gómez-Crunching-Numbers-with-Clojure.pdf) - Daniel Solano Gómez
 * Beyond Ninjas: DOM manipulation with ClojureScript and Domina - Luke VanderHart
 * [DSLs in Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Duey-DSLs.pdf) - Jim Duey
 * [Building Libraries for ClojureScript - Learning to Love Google Closure](http://ckirkendall.github.com/Presentations/ClojureWest/) - [Creighton Kirkendall](http://twitter.com/crkirkendall)
