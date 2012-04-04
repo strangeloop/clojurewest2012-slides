@@ -4,11 +4,6 @@ Enjoy!
 
 Alex Miller
 
-Speakers: if you submit a pull request to add slides, here is an example of how to update this file and a preferred way
-to name the slides:
-
-* [This is the title](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Smith-ThisIsTheTitle.pdf) - Joe Smith
-
 
 # Keynotes
 
