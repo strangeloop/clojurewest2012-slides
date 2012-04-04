@@ -14,7 +14,7 @@ to name the slides:
 
 * The Datomic Architecture and Data Model - Rich Hickey
 * [Engineering(,) A Path to Science: "I don’t want to die in a language I can’t understand"](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Gabriel-EngineeringScienceIncommensurability.pdf) - Richard Gabriel
-* Why Prismatic Goes Faster with Clojure - Bradford Cross
+* [Why Prismatic Goes Faster with Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Cross-Prismatic.pdf) - Bradford Cross
 * [Evident Code, at Scale](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Halloway-EvidentCodeAtScale.pdf) - Stuart Halloway
 
 # Sessions
