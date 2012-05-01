@@ -1,0 +1,214 @@
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 24 
+width: 125 
+skip: 0
+vimrc:  |
+  function! GetNextIdx(indexIncrement)
+    let l:absIdx = argidx() + a:indexIncrement
+    let l:absIdx = l:absIdx < 0 ? 0 : l:absIdx
+    let l:absIdx = l:absIdx >= argc() ? (argc() - 1) : l:absIdx
+    return l:absIdx
+  endfunction
+
+  function! ExecuteCommand(cmd)
+    exe ':silent !' . a:cmd
+  endfunction
+
+  function! TransitionCommand(idx)
+    return 'transition.' . argv(a:idx) . '.sh'
+  endfunction
+
+  function! NotesCommand(idx)
+    return 'cp ' . 'notes.' . argv(a:idx) . ' notes.txt'
+  endfunction
+
+  function! RunTransitionHook(increment)
+    call ExecuteCommand(TransitionCommand(GetNextIdx(a:increment)))
+  endfunction
+
+  function! WriteNotes(increment)
+    call ExecuteCommand(NotesCommand(GetNextIdx(a:increment)))
+  endfunction
+
+
+  set nonumber
+  map <PageDown> :call WriteNotes(1)<CR>:call RunTransitionHook(1)<CR>:n<CR>:<CR>gg
+  map <PageUp> :call WriteNotes(-1)<CR>:call RunTransitionHook(-1)<CR>:N<CR>:<CR>gg
+#  map b <C-S><C-S>
+#  map <SPACE> :call WriteNotes(1)<CR>:call RunTransitionHook(1)<CR>:n<CR>:<CR>gg
+#  map <BACKSPACE> :call WriteNotes(-1)<CR>:call RunTransitionHook(-1)<CR>:N<CR>:<CR>gg
+# The following options are for Gvim usage.
+vim: gvim
+#   set guioptions=egmLtT
+gvimrc: |
+  set fuopt=maxhorz,maxvert
+  set nonumber
+  set guifont=Inconsolata:h18
+#  set guicursor=a:blinkon0-ver25-Cursor
+#   colorscheme default
+
+---- center
+== continuous testing in clojure
+
+
+bill caputo (@logosity) 
+drw trading
+
+
+
+
+.
+---- left
+what is continuous testing?
+
+"We seek, not to build guard rails, but to paint lines on the road [...] You still have to know how to drive." 
+~ Ben Rady, "Continuous Testing with Ruby." 
+
++* executable documentation
+
++* constant feedback
+
++* flow
+
++* speed not completeness
+
++  - clojure:    181 expectations    47 ms
+  - ruby:        23 expectations    18 ms
+  - jruby:       30 expectations 1.081 seconds (hey, it's jruby)
+  - javascript: 712 expectations 2.225 seconds
+  --------------------------------------------
+  - total:      946 expectations 3.371 seconds
+
+
+
+
+
+
+
+
+
+
+.
+---- clojure,i4
+
+under the hood...
+
+---- include ../project.clj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+---- left
+an example...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+---- left
+an example...
+
+
+                            +------------------+
+                            |                  |
+                            |   Thing One.     |
+                            |                  |
+                            |                  |
+                            |                  |
+                            |                  |
+                            +------------------+
+
+
+
+
+
+
+
+.
+---- left
+an example...
+
+...3 months later...
+
+
+   +------------------+               +--------------------+
+   |                  |               |                    |
+   |   Thing One.     |               |   Thing Two.       |
+   |                  |               |                    |
+   |                  |<-------------+|                    |
+   |                  |               |                    |
+   |                  |               |                    |
+   +------------------+               +--------------------+
+
+
+
+
+
+.
+---- left
+an example...
+
+                           +------------------+
+                           |                  |
+                           |   Thing One.     |
+                           |                  |
+                +--------->|                  |<-----------+
+                |          |                  |            |
+                |          |                  |            |
+                |          +------------------+            |
+                +                                          +
+        +------------------+                   +--------------------+
+        |                  |                   |                    |
+        |  Thing Three.    |                   |   Thing Two.       |
+        |                  |                   |                    |
+        |                  |                   |                    |
+        |                  |                   |                    |
+        |                  |                   |                    |
+        +------------------+                   +--------------------+
+---- left
+in summary...
+
+
++thank you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

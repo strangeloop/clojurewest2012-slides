@@ -1,0 +1,15 @@
+
+    <SPACE>         Advance
+    <BACKSPACE>     Go back
+
+    ??              Help
+    QQ              Quit Vroom
+
+    RR              Run slide as a program
+    VV              vroom --vroom 
+    EE              Edit file under cursor
+    OO              Open file under cursor (Mac OS X)
+
+
+    (Press SPACE to leave Help screen and continue)
+
