@@ -1,0 +1,161 @@
+***** make sure tabs are set up before starting
+***** make sure cd into right directory
+
+start vroom; :tabe; :lcd ..; ,t thing-one ,t thing-two, etc.
+
+^01 1.5 minutes
+Hello and Welcome to Continuous Testing in Clojure
+I'm me
+programmer at DRW;
+Been using clojure in anger for about 8 months
+Been writing code test-first for about 13 years.
+
+Why this talk?
+* Team of 5, adopted clojure in the past 6 months
+* Already writing code in: Javascript, Ruby, Python, Bash & Java (living the polyglot dream)
+* Long-time TDD practictioners and already using continuous testing practices 
+* As we immersed ourselves in repl-based programming then added CT back in...
+* I was struck by:
+  - differences in workflow (loved the repl!)
+  - similarities in workflow (the focus on iteration)
+
+  We found CT Complemented the REPL, it didn't replace it (or vice versa) 
+    The repl makes some TDD practices less important
+    tests allow us to capture things we learn for later
+So what is CT?
+
+^02 3.5 minutes (need 5 minutes)
+  Seek to write "executable documentation"
+    Not about correnctness
+    make assumptions explicit
+    just as lisp is language for building languages
+    CT a language for building a dictionary for those languages (for concepts that don't have a name)
+    
+    When implementing mathematical and computer science concepts (things with names) this is less important/uneccessary
+    e.g. Least Common Multiple
+    ...BUT building a language for a business domain, you do need a dictionary (and a correct implementation)because:
+         defs are loose 
+         they change over time 
+         often in conflict with one another
+      and finding that out now, not in production or even later in your dev cycle
+     
+  Constant feedback
+    Every save, tests are run
+    Every save, all code is exercised 
+    (tools might narrow scope for some runs) 
+
+  Flow
+    We don't want to stop and run tests, we want to code
+    CT handles the context switching for us... if they pass you don't notice
+
+  And finally: Favor speed over completeness
+    We're not going to hit databases, or exercise the network
+    We're not going to ensure every edge is covered...
+    ...just the ones where we know our assumptions
+    -for reference:
+    <advance slide>
+    read each line (make jruby snark)
+    read totals... 3 seconds & we've captured almost 1000 assumptions about our code.
+
+...
+
+  rest of the talk is a simple workflow demo
+  that (Hopefully!) conveys these ideas
+  Before we do that...
+
+^03 1 minute 
+  this is a basic leiningen setup just:
+  lein new 
+  add expectations and lein-autoexpect
+  add the repl-init file
+  lein deps
+ 
+  Now on to the example... 
+
+^04 8 minutes
+The example...
+
+  here's the setup:
+  we use vim + vimclojure (w/slime) with a repl and the tests
+  which I'll start up here below vim...
+  <start lein repl lein autoexpect>
+  our workstations have two monitors and the layout varies by preference,
+  but hopefully you get the idea.
+  OK...
+
+<advance slide to show thing-one>
+
+We need to create comma-delimited strings
+We need empty strings when sequence are empty
+  
+-I'm gonna code right in the files, but in practice I often use the Scratch plugin for vim that gives me a scratch buffer 
+
+-interpose?
+-doc interpose
+-str...apply?
+(apply str (interpose "," coll))))
+-use expectations
+(expect "1,2,3" (make-csv [1 2 3])) 
+(expect "" (make-csv []))
+-forget to remove the hard-coded collection (we're all stupid at times... or at least I am)
+-rename foo to make-csv
+-replace interpose with clojure.string/join
+  -so Craig Andera comes in and says "why not string/join?"
+(:use [clojure.string :only (join)])
+(join \, coll)
+
+(expect "" (make-csv 1))
+-don't generally do this last one (we know what happens when interpose doesn't get a seq), 
+-but if your scenario has an expectation that might happen, then sure document it
+
+^05 6 minutes
+...3 months later 
+Thing-Two wants to use make-csv
+and has a new expectation:
+that when lists are empty we get back nils
+so, let's drive out thing-two's use of make-csv...
+
+(ns clojure-west.thing-two
+  (:use [clojure-west.thing-one :only [make-csv]]))
+
+  -remember to use r-all (so I have this little function in the repl file...)
+
+  (filter identity (map make-csv [[1 2 3] [] [:a :b :c]]))
+  (expect ["1,2,3" ":a,:b,:c"] (bar [[1 2 3] [:a :b :c]]))
+  -tests can be wrong, there's no autopilot...
+  (expect ["1,2,3" ":a,:b,:c"] (bar [[1 2 3] [] [:a :b :c]]))
+
+  -how do we check for an empty list?
+    -seq is an idiomatic to test for this (send it to the repl) so...
+    -great let's wrap that in a when...
+(defn make-csv [coll]
+  (when (seq coll)
+  (apply str (interpose "," coll))))
+
+-and... thing-two's test passes, while *thing-one's* test fails...
+-great so change thing-one's test, except...
+
+^06 2 minutes
+-make-csv is also being used by thing-three.
+-were not going to go into thing-three here, 
+-but this happens all the time: two different clients need incompatible behaviors
+-but now you're aware of it and you (and only you in the context of the situation) can decide:
+   -should thing-three change too?
+   -should thing-two not use make-csv?
+   -does make-csv belong with thing-one?
+   -is this overly complected?
+   -etc
+
+-whether this is a wise choice is context dependent
+
+It's not about knowledge of Clojure... or the domain, or your skill as a programmer, 
+it's about not having to keep the entire model of how the system interacts in your 
+head 3 months later when you are working on only one part of it...
+
+^07 2 minutes
+Communication. With others and with future "me"
+that's what CT helps us do effectively.
+It's not a substitute for good judgment,
+or language knowledge
+or your repl
+but it does make for a better driving experience
