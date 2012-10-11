@@ -27,7 +27,7 @@ Alex Miller
 * [Load testing with Clojure](https://github.com/strangeloop/clojurewest2012-slides/raw/master/kriger-load_testing_with_clojure.tbz) - Andy Kriger
 * [Pallet, DevOps for the JVM - Antoni Batchelli](https://github.com/strangeloop/clojurewest2012-slides/raw/master/tbatchelli-pallet-devops-for-the-jvm.pdf) - Toni Batchelli
 * [Building User Interfaces with Seesaw](http://darevay.com/talks/clojurewest2012) - [Dave Ray](http://twitter.com/darevay)
-* [The generative generation(https://github.com/strangeloop/clojurewest2012-slides/raw/master/Bedra-TheGenerativeGeneration.pdf)] - Aaron Bedra
+* [The generative generation](https://github.com/strangeloop/clojurewest2012-slides/raw/master/Bedra-TheGenerativeGeneration.pdf) - Aaron Bedra
 * [Building tools to help kids fight ADHD](https://github.com/strangeloop/clojurewest2012-slides/raw/master/whitaker-helping-adhd-kids.pdf) - [Alan Whitaker](http://twitter.com/#!/digiduke)
 * [Clojure in the Clouds](https://github.com/strangeloop/clojurewest2012-slides/raw/master/slagyr-clojure-in-the-clouds.pdf) - [Micah Martin](http://twitter.com/slagyr)
 * [Adopting Continuous Testing in Clojure](https://github.com/strangeloop/clojurewest2012-slides/tree/master/Caputo-ContinuousTestingInClojure) - Bill Caputo
